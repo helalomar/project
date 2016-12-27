@@ -39,7 +39,7 @@ namespace test1
                 DataTable movies = new DataTable();
                 adapter.Fill(movies);
                 moviesh.DisplayMember = "Name";
-                moviesh.ValueMember = "id";
+                moviesh.ValueMember = "Id";
                 moviesh.DataSource = movies;
             }
         }
